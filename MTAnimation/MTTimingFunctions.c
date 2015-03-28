@@ -237,3 +237,9 @@ double MTTimingFunctionEaseInOutBounce(double t, double b, double c, double d, d
     else
         return MTTimingFunctionEaseOutBounce(t*2-d, 0, c, d, s) * .5 + c*.5 + b;
 }
+
+MTTimingFunction PeelAnimation(){
+    return kMTEaseOutElastic;
+}
+
+

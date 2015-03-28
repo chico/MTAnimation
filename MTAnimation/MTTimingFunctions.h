@@ -57,6 +57,7 @@ double MTTimingFunctionEaseInOutBounce(double t,double b, double c, double d, do
 #endif
 
 
+MTTimingFunction PeelAnimation();
 
 
 #define kMTEaseInQuad      	&MTTimingFunctionEaseInQuad
